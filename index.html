@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Structure</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="../WebsiteStructure/images/logo.jpg" alt="logo" ></a>
+            </div><!--Logo-->
+            <div class="searchbar">
+                <form action="#">
+                    <input type="search" name ='c_search' value ="Search Site ..." >
+                    <input type="button" value=">">
+                </form>
+            </div> <!---Search bar-->
+            <div class="clearfix"></div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="#">Services</a>
+                        <ul class = 'dropdown-menu'>
+
+                            <li>
+                                <a href="services/webdevelopment.html">Web Development</a>
+                            </li>
+                            <li>
+                                <a href="services/webgrphics.html">Web Graphics</a>
+                            </li>
+                            <li>
+                                <a href="services/databases.html">Databases</a>
+                            </li>
+
+                        </ul>
+                    
+                    </li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    
+                </ul>
+            </nav> <!--nav-->
+        </header> <!--Header-->
+
+        <section class = "banner cycle-slideshow " >
+           
+                <img src="../WebsiteStructure/images/banner1.jpg" alt="" >
+               
+                <img src="../WebsiteStructure/images/banner2.jpg" alt="" >
+     
+        </section> <!--Banner Slider-->
+        <section class="content-holder">
+            
+            <article class="content">
+                <main>
+                    <h1>Lorem ipsum dolor</h1>
+                    <p>
+                        <span class = "heading"><b>Lorem ipsum dolor sit amet</b></span>, consectetur adipisicing elit. Repellat consectetur eum ipsa. 
+                        Magnam, nemo magni! Aliquam, eveniet odit ad ipsum fugit aliquid corrupti dolores molestiae
+                         facilis ipsa voluptates debitis beatae.
+                        Asperiores doloremque, velit doloribus numquam tenetur, facere, ratione praesentium quisquam 
+                        dolorem voluptatum voluptas. Quod molestiae perspiciatis repellendus inventore vitae! At, 
+                        necessitatibus aut tenetur ex saepe architecto incidunt illo iusto omnis?
+                    </p>
+
+                    <p>
+                        <span class = "heading"><b>Lorem ipsum dolor sit amet</b></span>, consectetur adipisicing elit. Repellat consectetur eum ipsa. 
+                        Magnam, nemo magni! Aliquam, eveniet odit ad ipsum fugit aliquid corrupti dolores molestiae
+                         facilis ipsa voluptates debitis beatae.
+                        Asperiores doloremque, velit doloribus numquam tenetur, facere, ratione praesentium quisquam 
+                        dolorem voluptatum voluptas. Quod molestiae perspiciatis repellendus inventore vitae! At, 
+                        necessitatibus aut tenetur ex saepe architecto incidunt illo iusto omnis?
+                        <br><br>
+
+                        <span class = "heading"><b>Lorem ipsum dolor sit amet</b></span>, consectetur adipisicing elit. Repellat consectetur eum ipsa. 
+                        Magnam, nemo magni! Aliquam, eveniet odit ad ipsum fugit aliquid corrupti dolores molestiae
+                         facilis ipsa voluptates debitis beatae.
+                        Asperiores doloremque, velit doloribus numquam tenetur, facere, ratione praesentium quisquam 
+                        dolorem voluptatum voluptas. Quod molestiae perspiciatis repellendus inventore vitae! At, 
+                        necessitatibus aut tenetur ex saepe architecto incidunt illo iusto omnis?
+                    </p>
+                </main>
+            </article> <!--content-->
+            
+            <aside class="sidebar"> <!--sidebar-->
+                <div>
+                    <h3>Widget</h3>
+                    <ul>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2019</a></li>
+                        <li><a href="#">2020</a></li>
+                    </ul>
+                </div>
+            </aside><!--sidebar-->
+            <div class="clearfix"></div>
+        </section><!--content holder-->
+        
+
+        <footer  class="main-footer"><!--footer-->
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <address>
+                    <h3>Company Name:</h3>
+                    <p>P1003/A Said Pure Road </p>
+                    <p>Email:<a href="mailto:contact@someone.com">contact@someone.com</a></p>
+                    <p>Phone:<a href="tel:123456789">1234567890</a></p>
+                </address>
+            </div>
+            <div class="clearfix"></div>
+        </footer><!--footer-->
+        
+
+        <div class = "copy">
+            <p><small>Copyright &copy; 2022 All rights Reserved</small></p>
+        </div>
+
+    </div>
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.swipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.shuffle.min.js"></script>
+    
+</body>
+</html>
